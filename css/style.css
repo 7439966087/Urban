@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+
+}
+/*header-tag*/
+.bg-img{
+    color: #fff;
+    width: 100%;
+    min-height: 700px;
+    background: url('../img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.nav-point{
+    padding-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nav-point span{
+    color: #5385C1;
+}
+.nav-point p{
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+.nav-point a{
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-point a span{
+    color: #fff;
+}
+.middle-point{
+    padding:16% 0;
+}
+.middle-point h1{
+    font-size: 2.5rem;
+}
+.middle-point p{
+    font-size: 1.5rem;
+    color: darkgray;
+}
+.my-btn{
+    color: #fff;
+    background-color: #5385C1;
+    display: inline-block;
+    padding: 0.6rem 1.1rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+.my-btn:hover{
+    color: #fff;
+    background-color: none;
+    border: red;
+}
+
+
+.bg-gray{
+    background-color: #fafafa;
+}
+.first-part{
+    padding: 3rem 0;
+}
+.img-part{
+    width: 100%;
+}
+.text-part h4{
+    font-size: 2.1rem;
+}
+.text-part p{
+    padding-top: 0.5rem;
+    font-size: 1.3rem;
+    color: rgba(78, 69, 69, 0.719);
+}
+.my-btn2{
+    padding: 0.4rem 0.9rem;
+}
+.bg-blue{
+    background-color: #5385C1;
+    color: #fff;
+}
+.bg-blue P{
+    color: rgb(185, 180, 180);
+}
+.my-btn3{
+    background-color: #fafafa;
+    color: #5385C1;
+}
+
+
+.last-section{
+    width: 100%;
+    background-color: #fafafa;
+    padding-top:3.5rem;
+}
+.head-point h2{
+    font-size:2.5rem;
+}
+.head-point p{
+    font-size: 1.4rem;
+    color: rgba(78, 69, 69, 0.719);
+}
+.three-box .size-adj{
+    font-size: 1.3rem;
+    color: rgba(78, 69, 69, 0.719);
+}
+
+.footer-section{
+    color: rgba(78, 69, 69, 0.808);
+    margin: 2rem 0;
+}
+.footer-section p{
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+.font-awesome a{
+    color: rgba(78, 69, 69, 0.808);
+}
+.font-awesome i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+
+@media only screen and (max-width:992px){
+    .text-part h4{
+        font-size: 1.6rem;
+    }
+    .text-part p{
+        font-size: 1rem;
+    }
+    .my-btn2{
+        padding: 0.3rem 0.8rem;
+    }
+    .three-box .img-part{
+        width: 60%;
+    }
+    .startmedia{
+        padding-bottom: 4rem;
+    }
+}
+@media only screen and (max-width:360px){
+    .nav-point p{
+        padding-left: 0.5rem;
+        font-size: 1rem;
+    }
+    .nav-point a{
+        padding-right: 0.5rem;
+        font-size: 1rem;
+    }
+    .middle-point h1{
+        font-size: 2rem;
+    }
+    .middle-point p{
+        font-size: 1.1rem;
+    }
+    .my-btn{
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    .bg-img{
+        min-height: 400px;
+    }
+    .text-part h4{
+        font-size: 1.1rem;
+    }
+    .text-part p{
+        font-size: 0.9rem;
+    }
+    .my-btn2{
+        padding: 0.2rem 0.6rem;
+    }
+    .three-box .img-part{
+        width: 60%;
+    }
+    .startmedia{
+        padding-bottom: 5rem;
+    }
+
+}
+@media only screen and (max-width:575px){
+    .img-part{
+        text-align: center;
+    }
+    .text-part h4{
+        text-align: center;
+    }
+    .head-point h2{
+        font-size:1.5rem;
+    }
+    .head-point p{
+        font-size: 1.2rem;
+    }
+    .three-box .size-adj{
+        font-size: 1rem;
+    }
+    .footer-section p{
+        font-size: 0.8rem;
+    }
+}
